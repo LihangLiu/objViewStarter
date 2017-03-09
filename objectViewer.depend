@@ -1,0 +1,201 @@
+# depslib dependency file v1.0
+1452201743 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/camera.cpp
+	"camera.hpp"
+	"menus.hpp"
+
+1453223662 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/camera.hpp
+	"global.hpp"
+
+1453238415 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/global.hpp
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+	<GL/glew.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<string>
+	<vector>
+	<list>
+	<algorithm>
+	<memory>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/quaternion.hpp>
+
+1453578419 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/menus.hpp
+
+1453241399 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/controller.cpp
+	"controller.hpp"
+	"scene.hpp"
+	"ray.hpp"
+
+1453241400 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/controller.hpp
+	"picker.hpp"
+
+1453238327 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/object.hpp
+	"glslshader.hpp"
+	"glslprogram.hpp"
+	"geometry.hpp"
+	"light.hpp"
+	"material.hpp"
+	"controller.hpp"
+
+1450405361 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/glslshader.hpp
+	"global.hpp"
+
+1453058209 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/glslprogram.hpp
+	"global.hpp"
+
+1453229584 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/geometry.hpp
+	"global.hpp"
+	"tiny_obj_loader.h"
+
+1453229584 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/light.hpp
+	"viewer.hpp"
+
+1453139339 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/material.hpp
+	"texture.hpp"
+
+1452531575 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/texture.hpp
+	"global.hpp"
+
+1451837737 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/geometry.cpp
+	"geometry.hpp"
+
+1453091468 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/glslprogram.cpp
+	"glslprogram.hpp"
+
+1451067352 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/glslshader.cpp
+	"glslshader.hpp"
+
+1453229749 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/light.cpp
+	"light.hpp"
+
+1453577834 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/main.cpp
+	"main.hpp"
+	"menus.hpp"
+
+1453153631 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/main.hpp
+	"scene.hpp"
+
+1453233108 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/scene.hpp
+	"viewer.hpp"
+	"object.hpp"
+
+1453178607 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/pick.hpp
+	"ray.hpp"
+
+1453139935 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/material.cpp
+	"material.hpp"
+
+1453589239 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/menus.cpp
+	"main.hpp"
+	"menus.hpp"
+	"object.hpp"
+	"material.hpp"
+	<glob.h>
+	<string>
+
+1453238456 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/object.cpp
+	"tiny_obj_loader.h"
+	"object.hpp"
+	<iostream>
+
+1453219075 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/pick.cpp
+	"pick.hpp"
+	"scene.hpp"
+
+1453233108 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/scene.cpp
+	"scene.hpp"
+
+1450405361 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/stb/stb_image.c
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1452536071 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/texture.cpp
+	"texture.hpp"
+	"imageload/stb_image.h"
+
+1450405361 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/stb/stb_image.h
+	<stdio.h>
+
+1453146042 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/ray.hpp
+	"global.hpp"
+
+1451242462 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/ray.cpp
+	"ray.hpp"
+
+1453048554 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/tiny_obj_loader.h
+	<string>
+	<vector>
+	<map>
+	<cstdlib>
+	<cstring>
+	<cassert>
+	<cmath>
+	<cstddef>
+	<cctype>
+	<string>
+	<vector>
+	<map>
+	<fstream>
+	<sstream>
+	"tiny_obj_loader.h"
+
+1452201554 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/jpegfile.c
+	<stdio.h>
+	<stdlib.h>
+	"jerror.h"
+	"jpeglib.h"
+	"jpegfile.h"
+	<setjmp.h>
+
+1452202350 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/jpegfile.h
+
+1452201554 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/imageload/jpegfile.c
+	<stdio.h>
+	<stdlib.h>
+	"jerror.h"
+	"jpeglib.h"
+	"jpegfile.h"
+	<setjmp.h>
+
+1452202350 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/imageload/jpegfile.h
+
+1450405361 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/imageload/stb_image.c
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1450405361 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/imageload/stb_image.h
+	<stdio.h>
+
+1453578419 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/viewer.hpp
+	"global.hpp"
+
+1453229584 /home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/picker.hpp
+	"ray.hpp"
+
+1453229584 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/picker.cpp
+	"picker.hpp"
+	"scene.hpp"
+
+1453589719 source:/home/don/Documents/Courses/cs354-fall2015/code/objectViewer/src/viewer.cpp
+	"viewer.hpp"
+	"controller.hpp"
+	"menus.hpp"
+

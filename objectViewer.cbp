@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="objectViewer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/objectViewer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="src" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/objectViewer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-march=corei7-avx" />
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="GL" />
+			<Add library="X11" />
+			<Add library="glut" />
+			<Add library="GLEW" />
+			<Add library="jpeg" />
+			<Add directory="/usr/lib/nvidia-352" />
+		</Linker>
+		<Unit filename="glsl/00_red.frag" />
+		<Unit filename="glsl/01_decal.frag" />
+		<Unit filename="glsl/02_diffuse.frag" />
+		<Unit filename="glsl/03_bump_diffuse.frag" />
+		<Unit filename="glsl/04_specular.frag" />
+		<Unit filename="glsl/05_diffspec.frag" />
+		<Unit filename="glsl/06_bump_lit.frag" />
+		<Unit filename="glsl/07_reflection.frag" />
+		<Unit filename="glsl/08_bump_reflection.frag" />
+		<Unit filename="glsl/09_combo.frag" />
+		<Unit filename="glsl/menger.vert" />
+		<Unit filename="glsl/phong.frag" />
+		<Unit filename="glsl/phong.vert" />
+		<Unit filename="glsl/torus.vert" />
+		<Unit filename="src/controller.cpp" />
+		<Unit filename="src/controller.hpp" />
+		<Unit filename="src/geometry.cpp" />
+		<Unit filename="src/geometry.hpp" />
+		<Unit filename="src/global.hpp" />
+		<Unit filename="src/glslprogram.cpp" />
+		<Unit filename="src/glslprogram.hpp" />
+		<Unit filename="src/glslshader.cpp" />
+		<Unit filename="src/glslshader.hpp" />
+		<Unit filename="src/imageload/stb_image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/imageload/stb_image.h" />
+		<Unit filename="src/light.cpp" />
+		<Unit filename="src/light.hpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/main.hpp" />
+		<Unit filename="src/material.cpp" />
+		<Unit filename="src/material.hpp" />
+		<Unit filename="src/menus.cpp" />
+		<Unit filename="src/menus.hpp" />
+		<Unit filename="src/object.cpp" />
+		<Unit filename="src/object.hpp" />
+		<Unit filename="src/picker.cpp" />
+		<Unit filename="src/picker.hpp" />
+		<Unit filename="src/ray.cpp" />
+		<Unit filename="src/ray.hpp" />
+		<Unit filename="src/scene.cpp" />
+		<Unit filename="src/scene.hpp" />
+		<Unit filename="src/texture.cpp" />
+		<Unit filename="src/texture.hpp" />
+		<Unit filename="src/tiny_obj_loader.h" />
+		<Unit filename="src/viewer.cpp" />
+		<Unit filename="src/viewer.hpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
